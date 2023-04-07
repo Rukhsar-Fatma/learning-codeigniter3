@@ -17,8 +17,8 @@
         </tr>
         <?php foreach($users as $user): ?>
         <tr>
-            <td><?php echo $user['Firstname']; ?></td>
-            <td><?php echo $user['AccountNo']; ?></td>
+            <td><?php echo $user['firstname'] ?></td>
+            <td><?php echo $user['account_no'] ?></td>
         </tr>
         <?php endforeach; ?>
     <table>    
