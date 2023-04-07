@@ -4,9 +4,9 @@ class Users extends CI_controller
 {
     public function User()
     {
-        // $this->load->model('Usermodel');
+        $this->load->helper('xyz');
+        test();
         $data['users']=$this->Usermodel->getUserdata();
-        // print_r($data);
         $this->load->view('Users/UserList',$data);
     }
 }
